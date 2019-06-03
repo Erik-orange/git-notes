@@ -31,33 +31,8 @@ ___
 * Use `command` + `K` to clear the terminal screen
 
  ___
- 
- ## Branches
- 
- * A branch is a version of the repository.
- 
- * Each branch has its own commit history and current version.
- 
-`$ git branch` shows all branches.
- 
-`$ git branch my-branch-name` creates a new branch
 
-`$ git branch -d some-old-branch` deletes the `some-old-branch`
- 
-`$ git checkout my-other-branch` switch to a new branch (checkout to a new branch) 
- 
-`$ git checkout -b my-branch-name` is the same as `git branch` and `git checkout` in one step
-
-`$ git merge some-branch-name` merges the `some-branch-name` branch with the current working branch.
-
-`$ git remote add origin https://github.com/Username/some-app.git`
-The `origin` option is the default name for the server on which your remote repository is located.
-
-Git doesn't care what you name your remote, but its typical to name your main branch `origin`.
- 
- ___
- 
- ## Configuration 
+## Configuration 
  
 `$ git config --global user.name "John Doe"` sets a first and last name
  
@@ -70,8 +45,8 @@ Git doesn't care what you name your remote, but its typical to name your main br
 `$ git init` initializes a hidden directory called `.git` in the project's root directory. "init"command stands for initialize.
  
  ___
- 
- ## Adding files
+
+ ## Adding/Removing Files
  
 `$ git add my-new-file.txt`
 `$ git add my-new-file.txt other-file.js`
@@ -82,6 +57,39 @@ Git doesn't care what you name your remote, but its typical to name your main br
 
 `$ git rm -r folder-name` recursively removes all folders and files from the working directory
 
+___
+
+ ## Branches
+ 
+ * A branch is a version of the repository.
+ 
+ * Each branch has its own commit history and current version.
+ 
+`$ git branch` shows all branches
+ 
+`$ git branch my-branch-name` creates a new branch
+
+`$ git branch -d some-old-branch` deletes the `some-old-branch`
+ 
+`$ git checkout my-other-branch` switch to a new branch (checkout to a new branch) 
+ 
+`$ git checkout -b my-branch-name` is the same as `git branch` and `git checkout` in one step
+
+`$ git merge some-branch-name` merges the `some-branch-name` branch with the current working branch
+
+`$ git remote add origin https://github.com/Username/some-app.git`
+The `origin` option is the default name for the server on which your remote repository is located.
+
+Git doesn't care what you name your remote, but its typical to name your main branch `origin`.
+ 
+`$git push -u origin master`
+Pushes your files to a remote repository.
+We also specify the server our local repo is connected to, `origin`.
+The branch we are pushing, `master`.
+The `-u` option remembers the `origin` and `master` parameters and allows us to run `git push` the next time.
+
+___
+ 
 `$ git commit -m "Add three files to project"`
 
 `$ git commit -am "Do something once more"` the `-a` option auto removes deleted files with the commit

@@ -88,12 +88,14 @@ ___
 * `$ git remote -v` the `-v` option lists all the remote repos you've connected to.
 
 * `$git push -u origin master` 
-  Pushes your files to a remote repository.
-  We also specify the server our local repo is connected to, `origin`.
-  The branch we are pushing, `master`.
-  The `-u` option remembers the `origin` and `master` parameters and allows us to run `git push` the next time.
+  * Pushes your files to a remote repository.
+  * We also specify the server our local repo is connected to, `origin`.
+  * The branch we are pushing, `master`.
+  * The `-u` option remembers the `origin` and `master` parameters and allows us to run `git push` the next time.
 
 ___
+ 
+ ## Commit Files
  
 * `$ git commit -m "Add three files to project"`
 

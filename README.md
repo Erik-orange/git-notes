@@ -80,6 +80,8 @@ ___
 
 * `$ git merge some-branch-name` merges the `some-branch-name` branch with the current working branch.
 
+#### Remote 
+
 * `$ git remote add origin https://github.com/Username/some-app.git`
 
   The `origin` option is the default name for the server on which your remote repository is located.
@@ -87,6 +89,8 @@ ___
   Git doesn't care what you name your remote, but its typical to name your main branch `origin`.
  
 * `$ git remote -v` the `-v` option lists all the remote repos you've connected to.
+
+#### Push Files
 
 * `$ git push -u origin master` 
   * Pushes your files to a remote repository.
@@ -128,7 +132,7 @@ The `clone` command will add a remote origin automatically, and you can simply r
 
 ___
 
-## Pulling Changes
+## Pull Changes
 
 * `$ git pull`
   * Pulls changes in the current branch made by other developers.

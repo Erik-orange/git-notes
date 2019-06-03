@@ -100,13 +100,13 @@ ___
 
 * `$ git reset --soft HEAD^` 
 
-** `--soft` option means that the commit is cancelled and moved before `HEAD`
+ * `--soft` option means that the commit is cancelled and moved before `HEAD`
 
-** You can now add another file to the staging area and commit, or you can amend files and commit them.
+ * You can now add another file to the staging area and commit, or you can amend files and commit them.
 
-** `HEAD` is just a pointer to a branch.
+ * `HEAD` is just a pointer to a branch.
 
-** `^` represents the last commit
+ * `^` represents the last commit
 
 ___
 

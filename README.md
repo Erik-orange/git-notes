@@ -64,9 +64,9 @@ ___
 
  ## Branches
  
- * A branch is a version of the repository.
+* A branch is a version of the repository.
  
- * Each branch has its own commit history and current version.
+* Each branch has its own commit history and current version.
  
 * `$ git branch` shows all branches.
  
@@ -88,7 +88,7 @@ ___
  
 * `$ git remote -v` the `-v` option lists all the remote repos you've connected to.
 
-* `$git push -u origin master` 
+* `$ git push -u origin master` 
   * Pushes your files to a remote repository.
   * We also specify the server our local repo is connected to, `origin`.
   * The branch we are pushing, `master`.
@@ -100,19 +100,15 @@ ___
  
 * `$ git commit -m "Add three files to project"`
 
-* `$ git commit -am "Do something once more"` the `-a` option auto removes deleted files with the commit
+* `$ git commit -am "Do something once more"` the `-a` option auto removes deleted files with the commit.
 
-* `$ git reset my-file-name.js` removes a file form the staging area
+* `$ git reset my-file-name.js` removes a file form the staging area.
 
 * `$ git reset --soft HEAD^` 
-
-   * `--soft` option means that the commit is cancelled and moved before `HEAD`
-
+   * `--soft` option means that the commit is cancelled and moved before `HEAD`.
    * You can now add another file to the staging area and commit, or you can amend files and commit them.
-
    * `HEAD` is just a pointer to a branch.
-
-   * `^` represents the last commit
+   * `^` represents the last commit.
 
 ___
 
@@ -123,7 +119,7 @@ Cloning a repository is very different from pulling from a repository.
 * `$ git clone git@github.com:YourUsername/your-app.git`
 
 If you clone a remote repository, Git will:
-- Download the entire project into a specified directory
+- Download the entire project into a specified directory.
 -	Create a remote repository called `origin` and point it to the URL you pass.
 
 The last point simply means that you don't need to run `git remote add origin git@github.com:YourUsername/your-app.git` after cloning a repository. 
@@ -135,8 +131,8 @@ ___
 ## Pulling Changes
 
 * `$ git pull`
-  - Pulls changes in the current branch made by other developers
-  - Synchronize your local repository with the remote repository.
+  * Pulls changes in the current branch made by other developers.
+  * Synchronize your local repository with the remote repository.
 
   The `pull` command doesn't create a new directory with the project name.
 

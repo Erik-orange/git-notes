@@ -69,7 +69,7 @@ ___
  
 * `$ git branch my-branch-name` creates a new branch
 
-* `$ git branch -d some-old-branch` deletes the `some-old-branch`
+* `$ git branch -d some-old-branch` deletes the `some-old-branch` branch
  
 * `$ git checkout my-other-branch` switch to a new branch (checkout to a new branch) 
  

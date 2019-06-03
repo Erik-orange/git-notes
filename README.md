@@ -49,6 +49,11 @@ ___
 `$ git checkout -b my-branch-name` is the same as `git branch` and `git checkout` in one step
 
 `$ git merge some-branch-name` merges the `some-branch-name` branch with the current working branch.
+
+`$ git remote add origin https://github.com/Username/some-app.git`
+The `origin` option is the default name for the server on which your remote repository is located.
+
+Git doesn't care what you name your remote, but its typical to name your main branch `origin`.
  
  ___
  
@@ -63,6 +68,8 @@ ___
 `$ git config --list` shows a list of all the set git configurations
 
 `$ git init` initializes a hidden directory called `.git` in the project's root directory. "init"command stands for initialize.
+ 
+ ___
  
  ## Adding files
  
@@ -79,9 +86,9 @@ ___
 
 `$ git commit -am "Do something once more"` the `-a` option auto removes deleted files with the commit
 
-`$ git reset --soft HEAD^` 
+`$ git reset my-file-name.js` removes a file form the staging area
 
-`reset` is the opposite of the `add` command
+`$ git reset --soft HEAD^` 
 
 `--soft` option means that the commit is cancelled and moved before `HEAD`
 
@@ -90,6 +97,8 @@ You can now add another file to the staging area and commit, or you can amend fi
 `HEAD` is just a pointer to a branch.
 
 `^` represents the last commit
+
+
  
  
  

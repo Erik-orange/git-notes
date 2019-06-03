@@ -28,34 +28,37 @@ ___
 
 * `touch` creates a new file, but also used to update timestamps on a file.
 
-* Use `command` + `K` to clear the terminal screen
+* Use `command` + `K` to clear the terminal screen.
 
  ___
 
 ## Configuration 
  
-* `$ git config --global user.name "John Doe"` sets a first and last name
+* `$ git config --global user.name "John Doe"` sets a first and last name.
  
-* `$ git config --global user.email "john-doe@gmail.com"` set the user email address
+* `$ git config --global user.email "john-doe@gmail.com"` set the user email address.
   
-* `$ git config --global color.ui true` turns on code highlighting
+* `$ git config --global color.ui true` turns on code highlighting.
  
-* `$ git config --list` shows a list of all the set git configurations
+* `$ git config --list` shows a list of all the set git configurations.
 
-* `$ git init` initializes a hidden directory called `.git` in the project's root directory and sets up file structure for git
+* `$ git init` initializes a hidden directory called `.git` in the project's root directory and sets up file structure for git.
  
  ___
 
  ## Adding/Removing Files
  
 * `$ git add my-new-file.txt`
-* `$ git add my-new-file.txt other-file.js`
-* `$ git add .` adds all files in the current directory to the staging area
-* `$ git add -all` adds all the files in the root directory and other directories
- 
-* `$ git rm --cached my-file-name` the `--cached` option indicats files in the staging area
 
-* `$ git rm -r folder-name` recursively removes all folders and files from the working directory
+* `$ git add my-new-file.txt other-file.js`
+
+* `$ git add .` adds all files in the current directory to the staging area.
+
+* `$ git add -all` adds all the files in the root directory and other directories.
+ 
+* `$ git rm --cached my-file-name` the `--cached` option indicats files in the staging area.
+
+* `$ git rm -r folder-name` recursively removes all folders and files from the working directory.
 
 ___
 
@@ -65,30 +68,30 @@ ___
  
  * Each branch has its own commit history and current version.
  
-* `$ git branch` shows all branches
+* `$ git branch` shows all branches.
  
-* `$ git branch my-branch-name` creates a new branch
+* `$ git branch my-branch-name` creates a new branch.
 
-* `$ git branch -d some-old-branch` deletes the `some-old-branch` branch
+* `$ git branch -d some-old-branch` deletes the `some-old-branch` branch.
  
-* `$ git checkout my-other-branch` switch to a new branch (checkout to a new branch) 
+* `$ git checkout my-other-branch` switch to a new branch (checkout to a new branch) .
  
-* `$ git checkout -b my-branch-name` is the same as `git branch` and `git checkout` in one step
+* `$ git checkout -b my-branch-name` is the same as `git branch` and `git checkout` in one step.
 
-* `$ git merge some-branch-name` merges the `some-branch-name` branch with the current working branch
+* `$ git merge some-branch-name` merges the `some-branch-name` branch with the current working branch.
 
 * `$ git remote add origin https://github.com/Username/some-app.git`
-The `origin` option is the default name for the server on which your remote repository is located.
+  The `origin` option is the default name for the server on which your remote repository is located.
 
-Git doesn't care what you name your remote, but its typical to name your main branch `origin`.
+  Git doesn't care what you name your remote, but its typical to name your main branch `origin`.
  
-* `$ git remote -v` the `-v` option lists all the remote repos you've connected to
+* `$ git remote -v` the `-v` option lists all the remote repos you've connected to.
 
 * `$git push -u origin master`
-Pushes your files to a remote repository.
-We also specify the server our local repo is connected to, `origin`.
-The branch we are pushing, `master`.
-The `-u` option remembers the `origin` and `master` parameters and allows us to run `git push` the next time.
+  Pushes your files to a remote repository.
+  We also specify the server our local repo is connected to, `origin`.
+  The branch we are pushing, `master`.
+  The `-u` option remembers the `origin` and `master` parameters and allows us to run `git push` the next time.
 
 ___
  

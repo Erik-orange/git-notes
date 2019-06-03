@@ -106,7 +106,33 @@ You can now add another file to the staging area and commit, or you can amend fi
 
 `^` represents the last commit
 
+___
 
+## Cloning A Repository
+
+Cloning a repository is very different from pulling from a repository. 
+
+* `$ git clone git@github.com:YourUsername/your-app.git`
+
+If you clone a remote repository, Git will:
+- Download the entire project into a specified directory
+-	Create a remote repository called `origin` and point it to the URL you pass.
+
+The last point simply means that you don't need to run `git remote add origin git@github.com:YourUsername/your-app.git` after cloning a repository. 
+
+The `clone` command will add a remote origin automatically, and you can simply run `git push` from the repository.
+
+___
+
+## Pulling Changes
+
+* `$ git pull`
+- Pulls changes in the current branch made by other developers
+- Synchronize your local repository with the remote repository.
+
+The `pull` command doesn't create a new directory with the project name.
+
+Git will only pull updates to make sure that your the local repository is up to date.
  
  
  

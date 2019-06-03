@@ -132,8 +132,8 @@ ___
 ## Pulling Changes
 
 * `$ git pull`
-- Pulls changes in the current branch made by other developers
-- Synchronize your local repository with the remote repository.
+  - Pulls changes in the current branch made by other developers
+  - Synchronize your local repository with the remote repository.
 
   The `pull` command doesn't create a new directory with the project name.
 

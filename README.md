@@ -87,7 +87,7 @@ ___
  
 * `$ git remote -v` the `-v` option lists all the remote repos you've connected to.
 
-* `$git push -u origin master`
+* `$git push -u origin master` 
   Pushes your files to a remote repository.
   We also specify the server our local repo is connected to, `origin`.
   The branch we are pushing, `master`.
@@ -135,9 +135,9 @@ ___
 - Pulls changes in the current branch made by other developers
 - Synchronize your local repository with the remote repository.
 
-The `pull` command doesn't create a new directory with the project name.
+  The `pull` command doesn't create a new directory with the project name.
 
-Git will only pull updates to make sure that your the local repository is up to date.
+  Git will only pull updates to make sure that your the local repository is up to date.
  
 * `$ git pull` shortcut for `git fetch` **+** `git merge origin/master`
  

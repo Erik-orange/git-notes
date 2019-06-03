@@ -84,10 +84,10 @@ ___
   * All text should be in lower case letters
   * Descriptors should be hyphenated
   * Branch names should start with one of the following:
-    * bug/
-    * feature/
-    * refactor/
-    * style/
+    * `bug/name-of-branch`
+    * `feature/name-of-branch`
+    * `refactor/name-of-branch`
+    * `style/name-of-branch`
 
 #### Remote 
 

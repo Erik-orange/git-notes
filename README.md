@@ -80,6 +80,15 @@ ___
 
 * `$ git merge some-branch-name` merges the `some-branch-name` branch with the current working branch.
 
+* Branch Names:
+  * All text should be in lower case letters
+  * Descriptors should be hyphenated
+  * Branch names should start with one of the following:
+    * bug/
+    * feature/
+    * refactor/
+    * style/
+
 #### Remote 
 
 * `$ git remote add origin https://github.com/Username/some-app.git`
@@ -113,6 +122,12 @@ ___
    * You can now add another file to the staging area and commit, or you can amend files and commit them.
    * `HEAD` is just a pointer to a branch.
    * `^` represents the last commit.
+   
+* Commit Messages:
+  * Capitalize the first word
+  * Do not end the commit message with a period, `.`
+  * Wrap the message content in double quotes, `""`
+  * Use imperative mood in the subject line, as if giving a command/instruction
 
 ___
 
@@ -144,8 +159,15 @@ ___
  
 * `$ git pull` shortcut for `git fetch` **+** `git merge origin/master`
  
+ ___
  
+ ## Fork A Repository
+ 
+ `$ git fork repo-url` creates your own copy of someone else's entire repository (all branches and commit history).
 
+___
+
+## Commit
 
  
  

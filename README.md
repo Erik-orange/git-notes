@@ -81,6 +81,7 @@ ___
 * `$ git merge some-branch-name` merges the `some-branch-name` branch with the current working branch.
 
 * `$ git remote add origin https://github.com/Username/some-app.git`
+
   The `origin` option is the default name for the server on which your remote repository is located.
 
   Git doesn't care what you name your remote, but its typical to name your main branch `origin`.

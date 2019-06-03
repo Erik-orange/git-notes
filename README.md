@@ -82,6 +82,8 @@ The `origin` option is the default name for the server on which your remote repo
 
 Git doesn't care what you name your remote, but its typical to name your main branch `origin`.
  
+* `$ git remote -v` the `-v` option lists all the remote repos you've connected to
+
 * `$git push -u origin master`
 Pushes your files to a remote repository.
 We also specify the server our local repo is connected to, `origin`.
@@ -134,8 +136,7 @@ The `pull` command doesn't create a new directory with the project name.
 
 Git will only pull updates to make sure that your the local repository is up to date.
  
- 
- 
+* `$ git pull` shortcut for `git fetch` **+** `git merge origin/master`
  
  
 

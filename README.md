@@ -46,7 +46,7 @@ ___
  
  ___
 
- ## Adding/Removing Files
+ ## Add/Remove Files
  
 * `$ git add my-new-file.txt`
 
@@ -166,8 +166,6 @@ ___
  `$ git fork repo-url` creates your own copy of someone else's entire repository (all branches and commit history).
 
 ___
-
-## Commit
 
  
  

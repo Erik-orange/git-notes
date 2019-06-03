@@ -6,9 +6,9 @@ ___
 
 * `~` is an alias for `$HOME` directory.
 
-* `..` denotes the parent directory.
-
 * `.` denotes the current directory.
+
+* `..` denotes the parent directory.
 
 * `*` is the wildcard symbol, selects all files in the working directory.
 

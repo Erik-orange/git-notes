@@ -28,7 +28,11 @@ ___
 
 * `touch` creates a new file, but also used to update timestamps on a file.
 
-* Use `command` + `K` to clear the terminal screen.
+* `command` **+** `K` to clear the terminal screen.
+
+* `command` **+** `U` clears everything typed in the prompt.
+
+
 
  ___
 
